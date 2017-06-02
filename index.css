@@ -1,0 +1,80 @@
+body, html, .main-content {
+    min-height: 100%;
+}
+body {
+     background-image: url("./assets/background1.jpg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jumbotron {
+    min-height: 100%;
+    overflow: hidden;
+}
+.navbar-header .logo {
+    max-width: 5rem;
+    margin-right: 2rem;
+}
+
+.scrollToTop {
+    position:fixed;
+    right: .5rem;
+    bottom: 2rem;
+    font-size: 2em;
+    display: none;
+    color: white;
+    border: 1px solid black;
+    padding: .3rem;
+}
+.practice {
+    text-align: center;
+}
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.tab-content .expertise.active {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.expertise .list-group-item img {
+    max-width: 2rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+.headline {
+    color: white;
+    background: rgba(0, 0, 0, .4);
+    padding: 1rem;
+}
+figure {
+    padding: 1rem;
+    margin: 1rem;
+}
+.tab-content .services.active {
+    min-height: 100%;
+    display: flex;
+}
+.services aside {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.services aside img {
+    display: block;
+    margin: 10 auto;
+    max-width: 50%;
+}
